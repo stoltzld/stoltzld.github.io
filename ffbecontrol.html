@@ -2,6 +2,11 @@
 <html>
 <head>
 <title>FFBE Control Testing</title>
+  <style>
+    #ffbebuilderframe { width: 75%; height: 75% }
+    #ffbebuilderiframecontainer { width: 75%; height: 75% }
+    body { min-height: 100%; min-width: 100%; background: #eeeeee; }
+  </style>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha512-bnIvzh6FU75ZKxp0GXLH9bewza/OIw6dLVh9ICg0gogclmYGguQJWl8U30WpbsGTqbIiAwxTsbe76DErLq5EDQ==" crossorigin="anonymous"></script>
   <script src="https://ffbeEquip.com/externalControl.js"></script>
   <script>
@@ -40,16 +45,14 @@ let recursivelySelectUnitAndBuild = function() {
 }
 
   </script>
-<style>
-  #ffbebuilderframe { width: 75%; height: 75% }
-  body { min-height: 100%; min-width: 100%; background: #eeeeee; }
-</style>
 </head>
 <body>
   <div id="results"></div>
   <ul>
      <li><a target="ffbecontroljsfiddle" href="https://jsfiddle.net/ks2whgb4/">Example</a>
   </ul>
-  <iframe style="width: 50%; height: 75%; id="ffbebuilderframe" src="https://ffbeEquip.com/builder.html"></iframe>
+  <div id="ffbebuilderiframecontainer">
+    <iframe style="width: 50%; height: 75%; id="ffbebuilderframe" src="https://ffbeEquip.com/builder.html"></iframe>
+  </div>
 </body>
 </html>
