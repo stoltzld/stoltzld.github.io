@@ -32,7 +32,8 @@
     "gstatic.com/recaptcha",
     "accounts.google.com",
     "accounts.youtube.com",
-    "gitlab.com/users/sign_in"
+    "gitlab.com/users/sign_in",
+    "www.google.com/maps"
   ],
   "remote-address": "https://stoltzld.github.io/useragent-switcher-preferences.json",
   "siblings": {},
