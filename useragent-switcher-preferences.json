@@ -29,6 +29,7 @@
     "accounts.youtube.com",
     "gitlab.com/users/sign_in"
   ],
+  "remote-address": "https://stoltzld.github.io/useragent-switcher-preferences.json",
   "siblings": {},
   "ua": "Mozilla/5.0 (Android 12; Mobile; rv:142.0) Gecko/142.0 Firefox/142.0",
   "userAgentData": true,
