@@ -11,7 +11,10 @@
     "maps.google.com",
     "beacon.schneidercorp.com",
     "peacocktv.com",
-    "mega.nz"
+    "mega.nz",
+    "bing.com",
+    "quora.com",
+    "walmart.com"
   ],
   "cache": true,
   "custom": {},
