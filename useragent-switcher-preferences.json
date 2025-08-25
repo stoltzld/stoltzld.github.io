@@ -1,0 +1,38 @@
+{
+  "blacklist": [
+    "mail.google.com",
+    "docs.google.com",
+    "drive.google.com",
+    "sheets.google.com",
+    "indeed.com",
+    "www.facebook.com",
+    "crazygames.com",
+    "youtube.com",
+    "maps.google.com",
+    "beacon.schneidercorp.com",
+    "peacocktv.com",
+    "mega.nz"
+  ],
+  "cache": true,
+  "custom": {},
+  "exactMatch": false,
+  "faqs": true,
+  "log": false,
+  "mode": "blacklist",
+  "parser": {},
+  "popup-browser": "Firefox",
+  "popup-os": "Windows",
+  "protected": [
+    "google.com/recaptcha",
+    "gstatic.com/recaptcha",
+    "accounts.google.com",
+    "accounts.youtube.com",
+    "gitlab.com/users/sign_in"
+  ],
+  "siblings": {},
+  "ua": "Mozilla/5.0 (Android 12; Mobile; rv:142.0) Gecko/142.0 Firefox/142.0",
+  "userAgentData": true,
+  "whitelist": [],
+  "json-guid": "65e7f08a-e2f7-4531-81a5-9394a3e2167e",
+  "json-forced": false
+}
